@@ -242,27 +242,8 @@ JavaScript runs one task at a time in order. It uses mechanisms like the event l
 
 ---
 
-## Key Points
-
-* JavaScript is dynamically typed
-* `let` and `const` are safer than `var`
-* Scope and hoisting are important concepts
-* Closures, callbacks, and promises are used in asynchronous programming
-* Higher-order functions simplify data handling
-
----
 
 ## Summary
 
 JavaScript runs code using execution contexts and follows lexical scoping. It supports functions as values and handles asynchronous operations using callbacks and promises.
 
----
-
-## Next Steps
-
-* Learn async/await
-* Understand the event loop
-* Practice DOM manipulation
-* Explore backend development using Node.js
-
----
