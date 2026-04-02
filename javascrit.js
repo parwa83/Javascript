@@ -97,14 +97,14 @@ const j = 30;
   let t = 2;
 }
 
-console.log(f); // ✅ works
-// console.log(t); // ❌ error
+console.log(f); //  works
+// console.log(t); //  error
 
 let s = 5;
-s = 10; // ✅ allowed
+s = 10; //  allowed
 
 const r = 5;
-// r = 10; // ❌ error
+// r = 10; //  error
 
 function hello()
 {
@@ -123,8 +123,8 @@ function outer() {
   let b = 20;
 
   function inner() {
-    console.log(v); // ✅ from global
-    console.log(b); // ✅ from outer
+    console.log(v); // from global
+    console.log(b); // from outer
   }
 
   inner();
